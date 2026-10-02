@@ -26,14 +26,14 @@ on:
       wirestead_ref:
         description: "Wirestead tag, branch, or commit to install"
         required: false
-        default: "v0.9.6"
+        default: "v0.10.0"
 
 permissions:
   contents: read
   packages: write
 
 env:
-  DEFAULT_WIRESTEAD_REF: v0.9.6
+  DEFAULT_WIRESTEAD_REF: v0.10.0
   IMAGE_NAME: ghcr.io/wirestead/wirestead-core
 
 jobs:
