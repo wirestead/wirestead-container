@@ -58,8 +58,8 @@ Build a different Wirestead ref:
 ```bash
 docker build \
   -f images/core/Dockerfile \
-  --build-arg WIRESTEAD_REF=v0.9.6 \
-  -t wirestead-core:0.9.6 \
+  --build-arg WIRESTEAD_REF=v0.10.0 \
+  -t wirestead-core:0.10.0 \
   .
 ```
 
